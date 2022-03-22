@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="my_name">Devin</string>
+    <string name="bio">Hi, my name is Devin.
+\n\nI love fish.
+\n\nThe kind that is alive and swims around in an aquarium or river, or a lake, and definitely the ocean.
+\nFun fact is that I have several aquariums and also a river.
+\n\nI like eating fish, too. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much.
+\nAnd sometimes I even go fishing.
+\nAnd even less sometimes, I actually catch something.
+\n\nOnce, when I was camping in Canada, and very hungry, I even caught a large salmon with my hands.
+\n\nI\'ll be happy to teach you how to make your own aquarium.
+\nYou should ask someone else about fishing, though.\n\n</string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">Done</string>
+    In the bio_text text view, set the value of the text attribute to the bio string resource that contains your biography.
+    To make the bio_text text easier to read, add spacing between the lines. Use the lineSpacingMultiplier attribute, and give it a value of 1.2.
+    b17971ba21f18cab.png
+
+    Notice how in the design editor, the bio text runs all the way to the side edges of the screen. To fix this problem, you can add left, start, right, and end padding attributes to the root LinearLayout. You do not need to add bottom padding, because text that runs right up to the bottom signals to the user that the text is scrollable.
+    Add start and end padding of 16dp to the root LinearLayout.
+    Switch to the Text tab, extract the dimension resource, and name it layout_padding.
+    166beb418d2ad96e.png
+
+    Note: Starting from API level 17, use "start" and "end" instead of "left" and "right" for padding and margin to adapt your app for RTL languages like Arabic.
+
+    Run your app and scroll through the text.
+    143a3e38f02c6411.gif
+
+    Congratulations!
+    You have created a complete app from scratch, and it looks great!
+
+    Back
+
+</resources>
